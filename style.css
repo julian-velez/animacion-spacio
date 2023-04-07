@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    margin: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.animated{
+    animation: animation 3s ease infinite;
+}
+
+@keyframes animation {
+    from {
+        letter-spacing: 15px;
+    }
+    to{
+        letter-spacing: 0;
+    }
+}
